@@ -1,0 +1,46 @@
+{
+  "name": "react-drag-resize",
+  "version": "1.0.0",
+  "description": "A react drag and resize demo",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --mode development",
+    "dev": "webpack-dev-server --mode development"
+  },
+  "author": "David Villegas <dville00@gmail.com>",
+  "license": "BSD",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^23.4.0",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "eslint": "^5.1.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-react": "^7.10.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^23.4.1",
+    "node-sass": "^4.9.2",
+    "react-test-renderer": "^16.4.1",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "jest": {
+    "modulePaths": [
+      "<rootDir>/src"
+    ],
+    "moduleNameMapper": {
+      "^.*\\.scss$": "<rootDir>/test/styleStub.js"
+    }
+  }
+}
